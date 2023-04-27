@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+        <title> FORMULÁRIO </title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+               <form action="/action_page.php" target="_blank"> 
+                   <div class="conteudo"> 
+                        <h2>Formulario para contato</h2>
+                        <input type="text" placeholder="nome" required /> 
+                        <input type="email" placeholder="email" required/> 
+                        <input type="password" placeholder="senha" required/>
+                        <input type="date" placeholder="data de nascimento"/>
+                   </div>
+                    <div class="sex"> 
+                        <div class="sexo">
+                            <input id="id" type="radio" name="genero"/> 
+                            <label for="id">masculino</label>
+                        </div>
+                        <div class="sexo">
+                            <input type="radio" name="genero"/>  
+                            <label >fememino</label>
+                        </div>
+                        <div class="sexo">
+                            <input type="radio" name="genero"/>
+                            <label >outro</label>
+                        </div>
+                    </div>
+                    <div class="endereco">
+                        <h3>Endereco</h3>
+                        <input type="number" placeholder="CEP" required/>
+                        <input type="text" placeholder="logradouro" required/>
+                        <input type="number" placeholder="numero" required/>
+                        <input type="text" placeholder="bairro" required/>
+                        <input type="text" placeholder="cidade" required/>
+                        <input type="text" placeholder="estado" required/>
+                    </div> 
+                        
+                    <div class="btns">
+                        <button class="btne" type="submit">Enviar</button>
+                        <button class="btna" type="reset">Apagar</button>
+                    </div>
+                </form>
+        
+    </body>
+</html>
